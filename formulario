@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<!--aqui vamos linkar nosso CSS -->
+<link href="form.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <!--iniciando meu formulário lindo-->
+  <form>
+    
+    <!--label vai ser o rotulo associado aquele campo no form-->
+    <!--input é o campo em si daquele formulário, abaixo temos o tipo texto, para inserção de textos curtos-->
+    <label for="nome">Nome:  </label><br/>
+    <input type="text" name="nome" id="nome" placeholder="Preencha aqui seu nome"><br/><br/>
+    
+    <!--no tipo date o usuário pode inserir a data digitando ou selecionando num calendário :) -->
+    <label for="nasc">Data de Nascimento:  </label><br/>
+    <input type="date" name="nasc" id="nasc"><br/><br/>
+    
+    <!-- no tipo color o usuário escolhe uma cor em RGB-->
+    <label for="cor"> Qual sua cor favorita?</label><br/>
+    <input type="color"><br/><br/>
+       
+    <!-- no tipo senha, ao digitar um texto ele aparece protegido -->
+    <label for="senha"> Senha: </label><br/>
+    <input type="password" placeholder="Crie uma senha"><br/><br/>
+    
+    <!-- tipo checkbox é uma caixa de seleção-->
+    <input type="checkbox" name="Whatsapp">Me contacte pelo WhatsAppp<br/>
+    <input type="checkbox" name="fb">Me contacte pelo Facebook<br/>
+    <input type="checkbox" name="n">Só me contacte se for por psicografia<br/><br/>
+    
+    <!-- tipo rádio é uma escolha única, onde ao esolher uma opção as demais são desmarcadas -->
+    <p>Qual sua faixa etária?</p>
+    <input type="radio" name="idade" value="15_30">15 à 30 anos<br/>
+    <input type="radio" name="idade" value="31_40">31 à 40 anos<br/>
+    <input type="radio" name="idade" value="41_60">41 à 60 anos<br/><br/>
+    
+    <!-- aqui temos uma lista de seleção, ela é composta por duas declarações, select e option -->
+    <label for="signo">Qual seu signo?</label><br/>
+    
+    <!-- aqui no select abrimos a lista de opções-->
+    <select name="signo" id="signo">
+    
+    <!-- dentro do meu select, que é minha lista de opções, coloco minhas opções-->
+      <option value="Capricornio"> Capricórnio </option> 
+      <option value="Leao"> Leão </option>
+      <option value="Gemeos"> Gêmeos </option>     
+      <option value="Libra"> Libra </option>
+      <option value="Sargitario"> Sargitário </option>
+      <option value="Cancer"> Câncer </option><br/><br>
+      
+    <!-- prontinho, agora fecho meu select -->
+    </select><br/><br>
+    
+    <!--colocando um botão de enviar-->
+    <input type="button" value="Enviar">
+  
+    <!-- fechando meu form-->
+  </form>
+  
+  </body>
+</html>
