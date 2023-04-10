@@ -1,0 +1,42 @@
+.lindo{
+    /* com a font-family podemos fornecer um conjunto de fontes, 
+    para que se o navegador ultilizado por quem abrir a página
+    não tiver/suportar tal fonte, ele tenha uma alternativa pra mostrar*/
+    font-family: 'Courier New', Courier, monospace;
+
+    /* aqui podemos definir o alinhamento do texto na tela 
+    (centralizado, justificado, esquerda-start-, direita-end)*/
+    text-align: start;
+
+    /* aqui definimos a espessura da fonte */
+    font-weight: 800;
+
+    /* aqui definimos o tamanho da fonte*/
+    font-size: small;
+
+    /*aqui conseguimos deixar tudo maiusculo, com a letra que for realmente maiuscula, maior */
+    font-variant: small-caps;
+
+    /* aqui conseguimos colocar estilos como italico, negrito, etc...*/
+    font-style: italic;
+
+    /* aqui conseguimos colocar um traçado abaixo do texto*/
+    text-decoration: underline;
+
+    /* aqui conseguimos colocar um traçado acima do texto*/
+    text-decoration: overline;
+
+    /*aqui conseguimos colocar nosso texto em minusculo*/
+    text-transform: lowercase;
+
+    /*aqui conseguimos colocar nosso texto em maiusculo*/
+    text-transform: uppercase;
+
+    text-shadow: 3;
+
+}
+
+.lindo2{
+    font-family: 'Courier New', Courier, monospace;
+    
+}

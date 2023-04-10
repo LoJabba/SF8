@@ -1,0 +1,15 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  table{
+    border:2px solid black;
+
+  }
+  
+  tr, td, th{
+    border:2px solid black;
+    color: bisque;
+    background-color: antiquewhite;
+    padding: 1px;
+}
