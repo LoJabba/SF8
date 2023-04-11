@@ -1,0 +1,38 @@
+/* Aqui chamei minha di principal grandona */
+.container { 
+    /*Primeiramente, pra controlar posicionamento
+    como flex box preciso definir meu dysplay como flex, sempre,
+    senão as alterações não seram feitas*/
+    display: flex;
+
+    /*Agora estou definindo a direção em que minhas div aparecerão*/
+    flex-direction: row;
+
+    /*Aqui vamos definir o que acontece ao ocupar todo o espaço*/
+    flex-wrap: wrap;
+
+    /*Aqui defini que quero minhas divs começando pela esquerda, alinhadas à esquerda*/
+    justify-content: flex-end;
+   }
+
+   /*Bom, agora vamos para as divs menores, internas*/
+.item1{
+
+    /*Uma corzinha só pra diferenciar*/
+    background-color: rgb(133, 133, 243);
+
+    /*Aumentei a largura da div só pra ela encher realmente a tela
+    e a gente poder ver a magia acontecendo*/
+    width: 400px;
+}
+
+.item2{
+    background-color: rgb(178, 151, 203);
+    width: 400px;
+}
+
+.item3{
+    background-color: rgb(204, 236, 173);
+    width: 400px;
+}
+
