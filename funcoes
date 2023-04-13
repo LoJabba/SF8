@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html> 
+
+<script>
+/*
+
+    var bla = "olá mundo";
+        function pegaTexto(blabla){
+        document.write(bla + " "+ blabla + " " + bla);
+        }
+        pegaTexto("pega aqui");
+        
+  
+function exibeMensagem1 (){
+    alert("Atenção");
+}
+exibeMensagem1();
+
+function exibeMensagem2 (){
+    alert("Quer mesmo sair do site?");
+}
+exibeMensagem2();
+
+function exibeMensagem3 (){
+    alert("Se vc ficar te dou desconto de 30%");
+}
+exibeMensagem3();
+
+
+
+function somaLore(numero1, numero2){
+
+    alert(numero1 + numero2);
+    }
+    somaLore(30, 60); // resultado é 90
+    somaLore(3, 9); // resultado é 12
+    somaLore(47, 62); // resultado é 109
+
+function soma(n1, n2){
+    return n1+n2;
+}
+function texto (){
+    return "O resultado é: ";
+}
+document.write(texto()+somar(47, 62)); // resultado é 109
+
+function teste (caso){
+    switch(caso){
+        case 1:
+        return "opção 01";
+        case 2:
+        return "opção 02";
+        case 3:
+        return "opção 03";
+        default:
+        return null;
+    }
+}
+alert(teste(3));
+
+
+let show = function (){
+    console.log('minha função anônima');
+}
+show();
+
+ 
+let pessoinhas = {
+    nome: 'Stefany',
+    sobrenome: 'Germanotta'
+}; 
+
+(function (){
+    console.log(`${pessoinhas.nome} ${pessoinhas.sobrenome}`);
+})(pessoinhas);
+
+
+
+let show = function (){
+    console.log('minha função anônima');
+};
+
+let show = () => console.log('minha função anônima');
+
+
+// sqrt = raiz quadrada
+var tinkiwinky = Math.sqrt(9);
+document.write(tinkiwinky);
+
+var paul = Math.pow(10,3); // 10³
+document.write(paul);
+*/
+
+var var1 = 9.7;
+var var2 = 7.1;
+document.write(var1 + " arredondado para baixo é " + Math.floor(var1)+ "<br/>");
+document.write(var1 + " arredondado para cima é " + Math.round(var1) +  "<br/>");
+document.write("Nota 1 " + var1+  "<br/>");
+document.write("Nota 2 " + var2+  "<br/>");
+document.write("A média de notas é " + (Math.floor((var1 + var2)/2)) );
+
+
+
+
+
+
+
+
+</script>
+    
+</html>
